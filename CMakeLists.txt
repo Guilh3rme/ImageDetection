@@ -7,7 +7,7 @@ enable_testing()
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(OpenCV_App main.cpp)
+add_executable(OpenCV_App src/Main.cpp)
 
 target_link_libraries(OpenCV_App ${OpenCV_LIBS})
 

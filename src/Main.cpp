@@ -6,7 +6,7 @@ int main(int argc, char** argv )
 {
 
     Mat image;
-    image = imread("C:/Users/guiga/Documents/Projetos/ImageProcessing/ImageDetection/lenna.png");
+    image = imread("C:/Users/guiga/Documents/Projetos/ImageProcessing/ImageDetection/src/images/lenna.png");
     if ( !image.data )
     {
         printf("No image data \n");
